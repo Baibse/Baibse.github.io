@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    /* background-image: url('bubbles.jpg'); */
+    /* opacity: .5; */
+    /* background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover; */
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* align-items: center;
+    justify-content: center;
+    justify-self: center; */
+}
+#main-container::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('8.jpg');
+    /* opacity: 0.9; */
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#nav-buttons {
+    height: 4vw;
+    /* display: flex; */
+    /* align-items: right; */
+    justify-content: center;
+    position: relative;
+    /* border-bottom: 1px solid rgb(148, 143, 143); */
+    background-clip: padding-box
+    /* border-right: ; */
+    /* background-color: cornflowerblue; */
+}
+
+.nav-button {
+    /* margin: 5em; */
+    width: 10vw;
+    height: 100%;
+    /* border-radius: 5px; */
+    float: right;
+    border: transparent;
+    /* border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    border-bottom: 3px solid rgb(148, 143, 143);
+    border-left: 3px solid rgb(148, 143, 143);
+    background-color: transparent;
+    
+    font-family: "Great Vibes";
+    font-size: 2vw;
+    font-weight: bold;
+    padding-bottom: 1px;
+
+}
+
+.nav-button:hover {
+    transition: background-color 1s;
+    background-color: rgb(96, 96, 97);
+    color: white;
+    cursor: pointer;
+}
+
+.nav-button:active {
+    color: deepskyblue;
+}
+
+#about-page {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 5px solid rgb(148, 143, 143); */
+}
+
+.portrait-container {
+    width: 20%;
+    height: auto;
+    border: 0.3vw solid rgb(148, 143, 143);
+    position: relative;
+    overflow: hidden;
+    /* left: 0;
+    right: 0; */
+    /* transform: translate(-50%); */
+     /* display: inline-block; */
+}
+
+.quote {
+    width: 25%;
+    height: auto;
+    /* border: 0.3vw solid rgb(148, 143, 143); */
+    position: relative;
+    /* overflow: hidden; */
+    margin-left: 10vw;
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Great Vibes";
+    /* left: 0;
+    right: 0; */
+    /* transform: translate(-50%); */
+     /* display: inline-block; */
+
+}
+@media screen and (max-width: 500px) {
+  
+    .portrait-container,
+    .quote {
+        width: 70%;
+    }
+}
+

@@ -1,0 +1,84 @@
+
+#portfolio-page {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 5px solid rgb(148, 143, 143); */
+}
+
+.project-img-container {
+    width: 25%;
+    height: auto;
+    border: 0.3vw solid rgb(148, 143, 143);
+    position: relative;
+    overflow: hidden;
+    margin-left: 5vw;
+    /* left: 0;
+    right: 0; */
+    /* transform: translate(-50%); */
+     /* display: inline-block; */
+}
+
+.project-description {
+    width: 25%;
+    height: auto;
+    /* border: 0.3vw solid rgb(148, 143, 143); */
+    position: relative;
+    /* overflow: hidden; */
+    margin-left: 8vw;
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.25rem;
+    /* left: 0;
+    right: 0; */
+    /* transform: translate(-50%); */
+     /* display: inline-block; */
+
+}
+/* @media screen and (min-width: 800px) {
+  
+    .portrait-container,
+    .quote {
+        width: 70%;
+    }
+} */
+
+.button {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Spacing */
+    padding: 8px;
+}
+
+.button__arrow {
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+}
+.button__arrow--right {
+    border-right: 5px solid rgba(255, 253, 253);
+    border-top: 5px solid rgba(255, 255, 255);
+    transform: translateX(-25%) rotate(45deg);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button__arrow--left {
+    border-bottom: 5px solid rgba(255, 255, 255);
+    border-left: 5px solid rgba(255, 255, 255);
+    transform: translateX(25%) rotate(45deg);
+}
+
+
