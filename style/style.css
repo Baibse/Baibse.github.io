@@ -50,10 +50,10 @@ html, body {
     /* border-radius: 5px; */
     float: right;
     border: transparent;
-    /* border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px; */
-    border-bottom: 3px solid rgb(148, 143, 143);
-    border-left: 3px solid rgb(148, 143, 143);
+    border-radius: 10px;
+    /* border-bottom-right-radius: 10px; */
+    /* border-bottom: 3px solid rgb(148, 143, 143);
+    border-left: 3px solid rgb(148, 143, 143); */
     background-color: transparent;
     
     font-family: "Great Vibes";
@@ -65,8 +65,7 @@ html, body {
 
 .nav-button:hover {
     transition: background-color 1s;
-    background-color: rgb(96, 96, 97);
-    color: white;
+    color: rgb(96, 96, 97);
     cursor: pointer;
 }
 
