@@ -17,10 +17,15 @@
     position: relative;
     overflow: hidden;
     margin-left: 5vw;
-    /* left: 0;
-    right: 0; */
-    /* transform: translate(-50%); */
-     /* display: inline-block; */
+}
+
+.project-img-container-bubbles {
+    /* width: 100%; */
+    height: auto;
+    border: 0.3vw solid rgb(148, 143, 143);
+    position: relative;
+    overflow: hidden;
+    margin-left: 5vw;
 }
 
 .project-description {
@@ -29,7 +34,7 @@
     /* border: 0.3vw solid rgb(148, 143, 143); */
     position: relative;
     /* overflow: hidden; */
-    margin-left: 8vw;
+    margin-right: 5vw;
     color: white;
     font-size: 1.5vw;
     padding-left: 10px;
