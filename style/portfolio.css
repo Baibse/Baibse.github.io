@@ -20,8 +20,6 @@
 }
 
 .project-img-container-bubbles {
-    /* width: 100%; */
-    height: auto;
     border: 0.3vw solid rgb(148, 143, 143);
     position: relative;
     overflow: hidden;
@@ -86,4 +84,14 @@
     transform: translateX(25%) rotate(45deg);
 }
 
+.project-link {
+   cursor: pointer;
+   color: azure;
+}
+.project-link:hover {
+    color: rgb(96, 96, 97);
+}
+.project-link:active {
+    color: deepskyblue;
+}
 
